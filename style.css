@@ -1,0 +1,504 @@
+/*importing third party font from online source*/
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap'); 
+
+
+
+*{
+	margin: 0; 
+	padding: 0; 
+	font-family: "Gabarito"; 
+}
+
+.navButton{ 
+	list-style: none; 
+	padding: 10px; 
+	padding-bottom: 20px; 
+	color: white;  
+	float: right; 
+	font-size: 20px; 
+	border-left: 1px solid; 
+	border-color: white;
+}
+		
+		
+nav{
+	position: fixed, top; 
+	width: 100%; 
+	height: 50px; 
+	background: linear-gradient(90deg, rgba(255,255,255,1) 20%, rgba(255,167,58,1) 55%, rgba(29,117,255,1) 100%);
+	margin: 0px; 
+}
+		
+.navBarLogo{
+	height: 40px; 
+	float: left; 
+}
+		
+.navTitle{
+	font-size: 40px; 
+	color: #4F9D69; 
+}
+
+.material-symbols-outlined{
+	size: 40px; 
+}
+
+li{
+	border-radius: 4px; 
+} 
+
+.navbutton:hover {
+    cursor: pointer;
+    background: #F4F6FC; 
+	background-size: 45px; 
+	color: black; 
+}
+
+.pshs{
+	color: #2892D7; 
+}
+
+.crc{
+	color: #FE7F2D; 
+}
+
+body{
+	background-image: url("https://pbs.twimg.com/media/F9IiG8_bgAAixj1?format=jpg&name=900x900"); 
+	background-size: cover; 
+	background-position: center; 
+	background-repeat: no-repeat; 
+}
+
+.title{
+	text-align: center; 
+	margin-top: 150px; 
+	margin-bottom:25px; 
+	margin-left: 100px; 
+	margin-right: 100px; 
+	color: #101D42; 
+	font-size: 70px; 
+}
+
+.container{
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+}
+
+.searchBar{
+	width: 100%; 
+	max-width: 700px; 
+	background: rgba(0, 113, 250, 0.5); 
+	display: flex; 
+	align-items: center; 
+	border-radius: 60px; 
+	padding: 10px 20px; 
+}
+
+.searchBar input{
+	background: transparent; 
+	flex: 1; 
+	border: 0; 
+	outline: none; 
+	padding: 10px 10px; 
+	font-size: 20px; 
+	color: #102542;
+}
+
+.searchBar button img{
+	width: 25px; 
+}
+
+.searchBar button{
+	border: 0; 
+	border-radius: 50%;
+	width: 60px; 
+	height: 60px; 
+	background: rgba(0, 113, 250, 0.3);
+	cursor: pointer; 
+}	
+.greeting{
+	margin: 30px;
+	border-bottom: 2px double black;
+	padding: 3px; 
+	border-width: 100%; 
+}
+
+.textContainer{ 
+	margin: 30px; 
+	overflow: auto;
+	width: 95%; 
+	border: 2px solid black;
+	background-color: #FFFFF3; 
+} 
+
+.tc-top{
+	margin: 5px; 
+	height: 42px; 
+	width: 100%; 
+	border-top: hidden; 
+	border-left: hidden;
+	border-right: hidden;
+	border-bottom: 2px solid black; 
+	width: 100%; 
+	background-color: #FFFFF3; 
+}
+
+.recentlyOpened{
+	float: left; 
+	padding: 5px; 
+
+}
+
+.tc1{
+	margin: 3px; 
+	overflow: auto;  
+	width: 100%; 
+	border-top: hidden; 
+	border-left: hidden;
+	border-right: hidden; 
+	border-bottom: solid; 
+	background-color: #FFFFF3; 
+}
+.math3{
+	font-size: 25px; 
+	font-weight: bold; 
+	color: #00A7E1; 
+	float:left; 
+	margin-left: 10px;
+}
+
+.geom-transform{
+	font-size: 20px; 
+	clear: left; 
+	margin-left: 15px; 
+	font-style: italic; 
+	text-decoration: underline; 
+}
+
+.geomContent{
+	font-family: monospace; 
+	font-size: 18px; 
+	clear: left;  
+	margin-right: 20px; 
+	margin-top: 5px; 
+	margin-left: 40px; 
+} 
+		
+span, .geom-transform, .geomContent{
+	text-align: justify; 
+} 
+
+.img1{
+	height: 150px; 
+	float: right; 
+} 
+
+.tc2{
+	margin: 3px; 
+	overflow: auto;  
+	width: 100%; 
+	border-top: hidden; 
+	border-left: hidden;
+	border-right: hidden; 
+	border-bottom: solid; 
+	background-color: #FFFFF3; 
+}
+
+.bio{
+	 font-size: 25px; 
+	 font-weight: bold; 
+	 color: #78BC61; 
+	 float: left; 
+	 margin-left: 10px; 
+	 width: 100%; 
+}
+
+.taxonomy{
+	font-size: 18px; 
+	font-weight: bold; 
+	font-style: italic; 
+	margin-left: 15px; 
+	text-decoration: underline; 
+}
+
+.study-of{
+	clear: left; 
+	margin-left: 7px; 
+	font-size: 18px; 
+	font-family: Onest, sans-serif; 
+	margin-left: 23px; 
+}
+
+.linnaean{
+	font-size: 18px; 
+	font-weight: bold; 
+	font-style: italic; 
+	margin-left: 20px; 
+}
+
+.hierarchy{
+	font-weight: normal;
+	margin-left: 21px; 
+}
+
+.img2{
+	height: 150px; 
+	float: right; 
+}
+
+.math3, .geom-transform, .geom-content, .bio, .taxonomy, .study-of, .linnaean, .hierarchy{
+	font-family: Onest, sans-serif;  
+} 
+
+.tc1:hover, .tc2:hover{
+	cursor: pointer;
+    background: white;  
+	color: black;
+}
+
+.might-like{
+	margin-left: 30px; 
+}
+
+.out-box{
+	margin-top: 10px; 
+	margin-left: 26px; 
+	overflow: auto;
+	width: 95%; 
+	border: 2px solid black;
+	background-color: #FFFFF3;
+}
+
+.container-rfunc{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	float: left; 
+}
+
+.rfunc{
+	float: left; 
+	font-size: 18px; 
+}
+
+.author1{
+	clear: left; 
+	font-weight: thin; 
+}
+
+.rfunc-content{
+	float: left; 
+	font-size: 12px; 
+}
+
+.container-phylo{
+	margin: 7px; 
+	height: 115px; 
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left; 
+}
+
+.phylo{
+	float: left; 
+	font-size: 18px; 
+}
+
+.author2{
+	clear: left; 
+	font-weight: 12px; 
+}
+
+.phylo-content{
+	float: left; 
+	font-size: 12px; 
+}
+
+.container-combi{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left; 
+}
+
+.combi{
+	float: left; 
+	font-size: 18px;
+}
+
+.author3{
+	clear: left; 
+	font-weight: 12px; 
+}
+
+.combi-content{
+	float: left; 
+	font-size: 12px;
+}
+
+.container-cs{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left;
+}
+
+.cs{
+	float: left; 
+	font-size: 18px;
+}
+
+.author4{
+	clear: left; 
+	font-weight: 12px;
+}
+
+.cs-content{
+	float: left; 
+	font-size: 12px;
+}
+
+.container-sqp{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left;
+}
+
+.sqp{
+	float: left; 
+	font-size: 18px;
+}
+
+.author5{
+	clear: left; 
+	font-weight: 12px;
+}
+
+.sqp-content{
+	float: left; 
+	font-size: 12px;
+}
+
+
+.container-rfunc:hover, .container-phylo:hover, .container-combi:hover, .container-cs:hover, .container-sqp:hover{
+	cursor: pointer;
+    background: #FFEFD3;  
+	color: black;
+}
+
+.newnotes{
+	margin-left: 30px;
+	margin-top: 10px; 
+}
+	
+.out-box-2{
+	margin-top: 0px; 
+	margin-left: 26px; 
+	overflow: auto;
+	width: 95%; 
+	border: 2px solid black;
+	background-color: #FFFFF3;
+}
+
+.container-triv{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left;
+}
+
+.triv{
+	text-align: center; 
+	font-size: 18px;
+	margin: 30px; 
+}
+
+.author6{
+	clear: left; 
+	font-weight: 12px;
+	text-align: center; 
+}
+	
+.container-trigo{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left;
+}
+
+.trigo{
+	text-align: left; 
+	font-size: 18px;
+}
+
+.author7{
+	clear: left; 
+	font-weight: 12px;
+}
+
+.trigo-content{
+	float: left; 
+}
+
+.container-stoic{
+	margin: 7px; 
+	height: 115px;
+	width: 215px; 
+	border: 2px solid black;
+	background-color: white; 
+	position: top, center; 
+	float: left;
+}
+
+.stoic{
+	text-align: left; 
+	font-size: 18px;
+}
+
+.author8{
+	clear: left; 
+	font-weight: 12px;
+}
+
+.stoic-content{
+	float: left; 
+	font-size: 12px;
+}
+
+.container-triv:hover, .container-trigo:hover, .container-stoic:hover{
+	cursor: pointer;
+    background: #D9F0FF;  
+	color: black;
+}
+
+	
+
+
+
+	
+
+
+
+		
+		
